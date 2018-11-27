@@ -2,7 +2,7 @@ clear;clc;
 % simple sample data
 % points = [46,42;37,52;52,64;52,33;52,41;62,42;42,57];
 % demand = [0,19,16,11,15,8,8];
-filename= 'db/tests1.csv';
+filename= 'db/tests.csv';
 [~,~,file_data] = xlsread( filename);
 data = cell2mat(file_data);
 demand = data(:,1)';
